@@ -2,6 +2,9 @@ git remote add origin https://github.com/Sachincourses/Section-4-Eureka-Discover
 git remote -v
 git remote set-url origin https://github.com/Sachincourses/Section-4-Eureka-Discovery-Service---A-Quick-Start.git
 
+git config --global user.email "sachinshetty999888@gmail.com"
+$ git config --global user.name "Sachincourses"
+git config --global --list
 
 git branch -m oldname 16-create-Usersrest-controller-class
 
