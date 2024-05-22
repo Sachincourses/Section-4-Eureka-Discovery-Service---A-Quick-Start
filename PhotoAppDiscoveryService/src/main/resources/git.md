@@ -14,6 +14,14 @@ git add .;
 git commit -m "40. [Updated] Configure Eureka Discovery as Standalone Server.";
 git push -u origin 40-Configure-Eureka-Discovery-as-Standalone-Server;
 
+ADD DEPENDENCIES
+Eureka Server 
+
+<dependency>
+<groupId>org.springframework.cloud</groupId>
+<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+</dependency>
+
 GETMAPPING
 
 http://localhost:8010/
