@@ -8,18 +8,15 @@ git config --global --list
 
 git branch -m oldname 16-create-Usersrest-controller-class
 
-git checkout -b 39-Create-Eureka-Discovery-Server-project;
+git checkout -b 40-Configure-Eureka-Discovery-as-Standalone-Server;
 git status;
 git add .;
-git commit -m "39. [Updated] Create Eureka Discovery Server project";
-git push -u origin 39-Create-Eureka-Discovery-Server-project;
+git commit -m "40. [Updated] Configure Eureka Discovery as Standalone Server.";
+git push -u origin 40-Configure-Eureka-Discovery-as-Standalone-Server;
 
+GETMAPPING
 
-
-POSTMAPPING
-
-http://localhost:8080/users
-
+http://localhost:8010/
 
 
 
